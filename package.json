@@ -1,7 +1,7 @@
 {
   "name": "appc-memwatch",
   "description": "Keep an eye on your memory usage, and discover and isolate leaks.",
-  "version": "0.2.7",
+  "version": "0.2.11",
   "author": "Lloyd Hilaiel (http://lloyd.io)",
   "engines": {
     "node": ">= 0.8.0"
@@ -20,7 +20,7 @@
     "url": "https://github.com/marcominetti/node-memwatch/issues"
   },
   "scripts": {
-    "install": "node-gyp rebuild",
+    "postinstall": "node ./build.js",
     "test": "mocha tests --reporter spec"
   },
   "devDependencies": {
