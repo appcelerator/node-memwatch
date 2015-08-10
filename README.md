@@ -1,6 +1,8 @@
 `node-memwatch`: Leak Detection and Heap Diffing for Node.JS
 ============================================================
 
+    This is a fork of memwatch-next to only compile on non windows platform. Nothing else has changed. (see binding.gyp)
+
 [![Build Status](https://travis-ci.org/deepak1556/node-memwatch.svg?branch=master)](https://travis-ci.org/deepak1556/node-memwatch)
 
 `node-memwatch` is here to help you detect and find memory leaks in
